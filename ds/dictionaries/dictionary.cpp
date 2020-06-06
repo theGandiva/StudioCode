@@ -1,13 +1,15 @@
 #include <iostream>
 
 using namespace std;
-struct linked_list
+
+struct dictionary
 {
-    int data = 10;
-    linked_list *next = nullptr;
+    int key;
+    string value;
 };
 
 int main()
 {
+    dictionary maps;
     return 0;
 }
